@@ -1,8 +1,10 @@
 {
-  "version": 2,
-  "buildCommand": "next build",
-  "outputDirectory": "out",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
   "framework": "nextjs",
+  "outputDirectory": ".next",
+  "regions": ["iad1"],
   "routes": [
     {
       "src": "/admin/(.*)",
